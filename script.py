@@ -6,7 +6,7 @@ try:
 	import os,requests,random,user_agent,telebot,urllib,re
 	
 except:
-	os.system('pip install -r https://github.com/OS74O/TikTok-VM-v1/blob/c708c6bd627c763928bb3867ad3c14cc20fdcb58/requirements.txt&&clear ')
+	os.system('pip install -r https://github.com/OS74O/TikTok-VM-v1/blob/main/requirements.txt&&clear ')
 	
 from requests import (post,get)
 from telebot import TeleBot
