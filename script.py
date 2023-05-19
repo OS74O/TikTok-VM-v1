@@ -125,8 +125,7 @@ def tk(email,tar):
 			res = post(url, data=data_str, headers=headers)
 			try:
 				code=res.text
-				print(code)
-				if '{"is_registered":1}' in code:
+				if ':1' in code:
 					info(email,tar)
 				if  'Maximum number of attempts reached. Try again later.' in code:
 					exit('\n\n[×] Change Your Vpn ❌ ')
