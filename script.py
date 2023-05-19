@@ -99,7 +99,7 @@ def info(email,tar):
  ⌯ 𝐣𝐨𝐢𝐧 : @OS74_TOOLS
 """)
 			bot.send_message(ID,f'<strong>{oss}</strong>',parse_mode='html')
-			open('tiktok-vm.txt','a').write(f'{email}\n')
+			open('tiktok-vm.txt','a+').write(f'{email}\n')
 			
 			
 		except:
@@ -112,7 +112,7 @@ def info(email,tar):
  ⌯ 𝐣𝐨𝐢𝐧 : @OS74_TOOLS
 """)
 			bot.send_message(ID,f'<strong>{oss}</strong>',parse_mode='html')
-			open('tiktok-vm.txt','a').write(f'{email}\n')
+			open('tiktok-vm.txt','a+').write(f'{email}\n')
 			
 	
 def tk(email,tar):
