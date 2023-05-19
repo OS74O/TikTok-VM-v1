@@ -125,9 +125,8 @@ def tk(email,tar):
 			res = post(url, data=data_str, headers=headers)
 			try:
 				code=res.text
-				
-
-	
+        if '''{"data":{"is_registered":0},"message":"success"}''' in code: 
+          print(W+f'[{R}BAD Tiktok{W}]  {R}{email}'+W)
 				if '''{"data":{"is_registered":1},"message":"success"}''' in code:
 					info(email,tar)
 				if  'Maximum number of attempts reached. Try again later.' in code:
