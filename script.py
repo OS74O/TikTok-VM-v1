@@ -176,7 +176,7 @@ def ChkPath(file_path):
 	    combo('new-users2.txt')
 	    pass
 	else:
-	 	url = '"https://raw.githubusercontent.com/OS74O/TikTok-VM-v1/main/new-users2.txt"'
+	 	url = 'https://raw.githubusercontent.com/OS74O/TikTok-VM-v1/main/new-users2.txt'
 	 	response = requests.get(url)
 	 	with open(file_path, 'wb') as f:
 	 		f.write(response.content)
