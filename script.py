@@ -125,12 +125,13 @@ def tk(email,tar):
 			res = post(url, data=data_str, headers=headers)
 			try:
 				code=res.text
-				if ':1' in code:
+				
+
+	
+				if '''{"data":{"is_registered":1},"message":"success"}''' in code:
 					info(email,tar)
 				if  'Maximum number of attempts reached. Try again later.' in code:
-					exit('\n\n[×] Change Your Vpn ❌ ')
-				else:
-					print(W+f'[{R}BAD Tiktok{W}]  {R}{email}'+W)
+					exit('\n\n[×] Change Your Vpn ❌ ') 
 			except:
 				exit('\n\n[×] Change Your Vpn ❌ ')
 
