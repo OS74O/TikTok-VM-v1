@@ -3,5 +3,4 @@ requests
 random   
 user-agent
 PyTelegramBotAPI
-urllib3  
-re
+urllib3
