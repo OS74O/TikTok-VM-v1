@@ -1,1 +1,7 @@
-
+os 
+requests
+random   
+user-agent
+telebot
+urllib3  
+re
